@@ -14,7 +14,7 @@ from datetime import date, timedelta
 from anthropic import Anthropic
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data.json")
-MODEL = "claude-opus-4-8"
+MODEL = "claude-sonnet-5"
 
 PROMPT_TEMPLATE = """You maintain a live events tracker for Kabir, founder at Novara Robotics \
 (a physical-AI / robotics / hardware manufacturing startup based in Austin, TX). Today's date is {today}.
