@@ -46,6 +46,14 @@ listed luncheons/events.
 meetup.com/austin-hardware-startup, meetup.com/austin-hardware-meetup), HICAM (hicam.io), Prototown \
 (prototown.com), Antler Austin, Q-Branch (q-branch.dev), Central Texas Angel Network \
 (centraltexasangelnetwork.com / ctan.com) for newly confirmed dates or new sessions.
+- Event listing/discovery platforms — search each of these directly for Austin startup, robotics, \
+hardware, and manufacturing events (site-scoped searches like `site:lu.ma austin startup` work well): \
+Luma (lu.ma), Eventbrite (eventbrite.com), Do512 (do512.com), Meetup (meetup.com, beyond the specific \
+groups above — search broadly for Austin robotics/hardware/startup groups), Built In Austin \
+(builtin.com/austin), and the Austin Chamber of Commerce events calendar (austinchamber.com/events).
+- National/global industry-association event calendars: A3 — Association for Advancing Automation \
+(a3automate.org), SME — Society of Manufacturing Engineers (sme.org), and similar robotics/automation \
+trade-association calendars, for newly announced or newly-dated flagship events.
 - General web search for newly announced Austin-area startup, venture, robotics, hardware, \
 manufacturing, industrial-automation, or dual-use/defense-tech events in the next 6 months not \
 already in the data.
@@ -107,7 +115,7 @@ def main():
     )
 
     client = Anthropic()
-    tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 20}]
+    tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 35}]
     messages = [{"role": "user", "content": prompt}]
 
     response = client.messages.create(
