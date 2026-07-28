@@ -2,11 +2,11 @@ name: Update events tracker
 
 on:
   schedule:
-    # 3:00 PM US Central time. GitHub Actions cron is UTC-only, so this is
-    # hand-converted and needs a manual flip across DST:
-    #   CDT (roughly mid-Mar to early Nov): 20:00 UTC  <- currently set below
-    #   CST (roughly early Nov to mid-Mar): 21:00 UTC
-    - cron: "0 20 * * *"
+    # 7:00 AM US Central time, Mondays only. GitHub Actions cron is UTC-only,
+    # so this is hand-converted and needs a manual flip across DST:
+    #   CDT (roughly mid-Mar to early Nov): 12:00 UTC  <- currently set below
+    #   CST (roughly early Nov to mid-Mar): 13:00 UTC
+    - cron: "0 12 * * 1"
   workflow_dispatch: {}
 
 permissions:
@@ -36,7 +36,7 @@ jobs:
           git config user.email "actions@github.com"
           if ! git diff --quiet -- data.json; then
             git add data.json
-            git commit -m "Daily events refresh: $(date -u +%Y-%m-%d)"
+            git commit -m "Weekly events refresh: $(date -u +%Y-%m-%d)"
             git push
           else
             echo "No changes to data.json"
