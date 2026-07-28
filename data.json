@@ -12,7 +12,7 @@
       "location": "Station Austin, 701 Brazos St, Austin, TX",
       "cost": "Free / suggested $15",
       "link": "https://capitalfactory.com/event/fiesta",
-      "desc": "Flagship monthly founder mixer — 12 founders pitch, warm intros to investors and mentors. Recurring monthly, ~3rd Tuesday."
+      "desc": "Flagship monthly founder mixer — 12 founders pitch, warm intros to investors and mentors. Recurring monthly, ~3rd Tuesday. Confirmed via Capital Factory listing (Dec 15, 2026, 5:30–9:30 PM, Station Austin)."
     },
     {
       "id": "fed-supernova-2026",
@@ -26,7 +26,7 @@
       "location": "STATION Austin, 701 Brazos St (keynotes at the Paramount Theatre)",
       "cost": "Paid, tiered registration",
       "link": "https://fedsupernova.com",
-      "desc": "CF's flagship dual-use/defense-tech conference — DoD, DIU, AFWERX, SpaceWERX, VCs and dual-use startups. Hotel block at Omni Austin Downtown, $209/night. Dates corrected Jul 28, 2026 refresh — previously listed as Aug 25–27."
+      "desc": "CF's flagship dual-use/defense-tech conference — DoD, DIU, AFWERX, SpaceWERX, VCs and dual-use startups. Hotel block at Omni Austin Downtown, $209/night. Dates corrected Jul 28, 2026 refresh — previously listed as Aug 25–27. Re-confirmed Aug 18–20, 2026 via fedsupernova.com FAQ, Army PIT listing, and organizer's own announcement (note: some third-party aggregator sites still show stale Aug 25–27 date — official sources say Aug 18–20)."
     },
     {
       "id": "austin-robotics-ai-2026-07",
@@ -141,8 +141,8 @@
       "dateEnd": "2026-10-30",
       "location": "Venues across Austin",
       "cost": "Mostly free / low-cost per event",
-      "link": null,
-      "desc": "City-wide 5-day founder/investor event series, successor to Austin Startup Week."
+      "link": "https://www.austintech.com/",
+      "desc": "City-wide 5-day founder/investor event series, successor to Austin Startup Week. Dates re-confirmed Oct 26–30, 2026 via austintech.com and Luma event calendar."
     },
     {
       "id": "welding-summit-2026",
@@ -400,6 +400,30 @@
       "cost": "Paid",
       "link": null,
       "desc": "Additive manufacturing + aerospace/defense production tech, co-located."
+    },
+    {
+      "id": "texas-space-summit-2026-09",
+      "title": "Texas Space Summit 2026",
+      "org": "Texas Space Summit (Capital Factory — supporting org / startup showcase)",
+      "category": "regional",
+      "tag": "Space / Dual-use",
+      "dateStart": "2026-09-21",
+      "dateEnd": "2026-09-23",
+      "location": "San Antonio, TX",
+      "link": null,
+      "desc": "Statewide space-industry summit; Capital Factory is a Supporting Organization and is launching a startup showcase for the event, strengthening programming for emerging companies and commercialization across Texas's space sector — relevant for dual-use/space-adjacent hardware and physical-AI founders."
+    },
+    {
+      "id": "ai-growth-summit-austin-2026-07",
+      "title": "AI Growth Summit Austin 2026",
+      "org": "Founderpath",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-07-28",
+      "location": "Capital Factory, Austin, TX",
+      "cost": "Free (register on Luma)",
+      "link": "https://founderpath.com/ai-growth-summit/events/austin-2026",
+      "desc": "Austin stop of the AI Growth Summit tour — founders, operators, and investors gathering at Capital Factory; feeds into the larger AI Growth Summit USA event in September."
     }
   ],
   "watchlist": [
@@ -577,6 +601,27 @@
       "cadence": "Occasional",
       "meta": "Panel on the state of Texas VC.",
       "link": null
+    },
+    {
+      "title": "First Look",
+      "org": "Capital Factory",
+      "cadence": "Recurring, roughly every 2 months (e.g. Feb, Apr, Jun, Aug, Oct), Thu 3–5 PM",
+      "meta": "Exclusive showcase where newest Capital Factory portfolio companies pitch to the investor/mentor community; has included hard-tech/hardware founders (e.g. satellite laser-comms startup Mithril Technologies at the June 2026 edition).",
+      "link": "https://capitalfactory.com/events"
+    },
+    {
+      "title": "Dual-Use Academy",
+      "org": "Capital Factory",
+      "cadence": "Recurring cohort program (2026 edition ran mid-June)",
+      "meta": "Program helping dual-use/defense-tech founders secure non-dilutive funding through education, mentorship, and access to Capital Factory's government partner network.",
+      "link": "https://dualuseacademy.capitalfactory.com/"
+    },
+    {
+      "title": "Hack AI",
+      "org": "Capital Factory / meetup.com/hack-ai",
+      "cadence": "Monthly, 1st Thursday, 6:00 PM",
+      "meta": "Themed builder session each month (Voice AI, LLMs, Computer Vision, etc.) at STATION Austin.",
+      "link": "https://www.meetup.com/hack-ai/"
     }
   ]
 }
