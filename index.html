@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Startup & Manufacturing Events — Austin, USA & Global — Novara Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+<style>
+  :root {
+    --paper: #f4f6f5;
+    --paper-2: #ffffff;
+    --ink: #16202b;
+    --ink-soft: #3d4954;
+    --graphite: #5c6670;
+    --line: #ccd5d8;
+    --line-strong: #a9b6ba;
+    --blueprint: #2c5f8a;
+    --blueprint-strong: #1d4266;
+    --blueprint-bg: #e4edf3;
+    --signal: #c96a1f;
+    --signal-bg: #fbeadb;
+    --good: #2f7a4f;
+    --good-bg: #e3f2e7;
+    --skip: #8b3a3a;
+    --skip-bg: #f5e3e3;
+    --font-mono: ui-monospace, "Cascadia Code", "SFMono-Regular", "Roboto Mono", Menlo, Consolas, monospace;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #10161d;
+      --paper-2: #161e27;
+      --ink: #eef1f0;
+      --ink-soft: #c3ccd1;
+      --graphite: #8b98a1;
+      --line: #29343d;
+      --line-strong: #3c4952;
+      --blueprint: #6fa8d1;
+      --blueprint-strong: #8fc0e3;
+      --blueprint-bg: #1c2c38;
+      --signal: #e8975a;
+      --signal-bg: #3a2a1a;
+      --good: #5cb37f;
+      --good-bg: #1c3324;
+      --skip: #d98787;
+      --skip-bg: #3a2222;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #10161d;
+    --paper-2: #161e27;
+    --ink: #eef1f0;
+    --ink-soft: #c3ccd1;
+    --graphite: #8b98a1;
+    --line: #29343d;
+    --line-strong: #3c4952;
+    --blueprint: #6fa8d1;
+    --blueprint-strong: #8fc0e3;
+    --blueprint-bg: #1c2c38;
+    --signal: #e8975a;
+    --signal-bg: #3a2a1a;
+    --good: #5cb37f;
+    --good-bg: #1c3324;
+    --skip: #d98787;
+    --skip-bg: #3a2222;
+  }
+  :root[data-theme="light"] {
+    --paper: #f4f6f5;
+    --paper-2: #ffffff;
+    --ink: #16202b;
+    --ink-soft: #3d4954;
+    --graphite: #5c6670;
+    --line: #ccd5d8;
+    --line-strong: #a9b6ba;
+    --blueprint: #2c5f8a;
+    --blueprint-strong: #1d4266;
+    --blueprint-bg: #e4edf3;
+    --signal: #c96a1f;
+    --signal-bg: #fbeadb;
+    --good: #2f7a4f;
+    --good-bg: #e3f2e7;
+    --skip: #8b3a3a;
+    --skip-bg: #f5e3e3;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .page {
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--paper);
+    min-height: 100%;
+    padding-bottom: 4rem;
+  }
+  a { color: var(--blueprint-strong); }
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--blueprint);
+    outline-offset: 2px;
+  }
+
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 1.25rem 1.5rem 1rem;
+  }
+  .topbar-inner { max-width: 880px; margin: 0 auto; }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--blueprint);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--good); display: inline-block; }
+  h1 {
+    font-size: 1.5rem;
+    margin: 0.3rem 0 0.15rem;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+  .subtitle { color: var(--graphite); font-size: 0.88rem; margin: 0 0 0.9rem; max-width: 62ch; line-height: 1.5; }
+  .meta-row { display: flex; flex-wrap: wrap; gap: 1.2rem; font-family: var(--font-mono); font-size: 0.72rem; color: var(--graphite); margin-bottom: 0.9rem; }
+  .meta-row b { color: var(--ink-soft); font-weight: 600; }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .chip {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    padding: 0.32rem 0.65rem;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: var(--paper-2);
+    color: var(--ink-soft);
+    cursor: pointer;
+    letter-spacing: 0.01em;
+  }
+  .chip[aria-pressed="true"] { background: var(--blueprint); border-color: var(--blueprint); color: white; }
+
+  main { max-width: 880px; margin: 0 auto; padding: 0 1.5rem; }
+
+  section.block { margin-top: 2.4rem; }
+  .block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.9rem; border-bottom: 1px solid var(--line); padding-bottom: 0.5rem; }
+  .block-head h2 { font-size: 1rem; margin: 0; letter-spacing: 0.01em; }
+  .block-head .count { font-family: var(--font-mono); font-size: 0.75rem; color: var(--graphite); }
+  .block-note { font-size: 0.82rem; color: var(--graphite); margin: -0.4rem 0 1rem; line-height: 1.5; }
+
+  .timeline { position: relative; }
+  .event {
+    display: grid;
+    grid-template-columns: 84px 1fr;
+    gap: 0.9rem;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .event:last-child { border-bottom: none; }
+  .rail { position: relative; font-family: var(--font-mono); text-align: right; padding-right: 0.9rem; border-right: 1px solid var(--line-strong); }
+  .rail .day { font-size: 1.05rem; font-weight: 600; color: var(--ink); line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .rail .mon { font-size: 0.68rem; color: var(--graphite); text-transform: uppercase; letter-spacing: 0.06em; }
+  .rail .yr { font-size: 0.65rem; color: var(--graphite); }
+  .rail::after {
+    content: "";
+    position: absolute;
+    right: -4.5px;
+    top: 0.35rem;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--blueprint);
+    border: 2px solid var(--paper);
+  }
+  .event.past .rail::after { background: var(--graphite); }
+  .event.past .rail .day, .event.past .rail .mon { color: var(--graphite); }
+
+  .card-title-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem; }
+  .card-title { font-weight: 650; font-size: 0.98rem; }
+  .org { font-size: 0.78rem; color: var(--graphite); }
+  .tag {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.12rem 0.4rem;
+    border-radius: 3px;
+    background: var(--blueprint-bg);
+    color: var(--blueprint-strong);
+  }
+  .desc { font-size: 0.85rem; color: var(--ink-soft); line-height: 1.5; margin: 0.35rem 0 0.5rem; max-width: 62ch; }
+  .facts { display: flex; flex-wrap: wrap; gap: 0.9rem; font-size: 0.78rem; color: var(--graphite); margin-bottom: 0.5rem; }
+  .facts span { display: inline-flex; align-items: center; gap: 0.3rem; }
+  .facts a { color: var(--blueprint-strong); text-decoration: none; }
+  .facts a:hover { text-decoration: underline; }
+
+  .badge {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    padding: 0.18rem 0.5rem;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .badge.urgent { background: var(--signal-bg); color: var(--signal); }
+  .badge.ok { background: var(--blueprint-bg); color: var(--blueprint-strong); }
+
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin-top: 0.4rem; }
+  .toggle-btn {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid var(--line-strong);
+    background: var(--paper-2);
+    color: var(--ink-soft);
+    cursor: pointer;
+  }
+  .toggle-btn.on.registered { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+  .toggle-btn.on.went { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+  .toggle-btn.on.skipped { background: var(--skip-bg); border-color: var(--skip); color: var(--skip); }
+  .notes-field {
+    flex: 1 1 220px;
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid var(--line);
+    background: var(--paper-2);
+    color: var(--ink);
+    resize: vertical;
+    min-height: 1.9rem;
+  }
+
+  .watch-grid { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .watch-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.6rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.85rem;
+    align-items: baseline;
+  }
+  .watch-row:last-child { border-bottom: none; }
+  .watch-title { font-weight: 600; }
+  .watch-meta { color: var(--graphite); font-size: 0.78rem; margin-top: 0.1rem; }
+  .watch-cadence { font-family: var(--font-mono); font-size: 0.72rem; color: var(--blueprint-strong); white-space: nowrap; text-align: right; }
+
+  .flag-box {
+    border: 1px dashed var(--line-strong);
+    border-radius: 6px;
+    padding: 0.8rem 1rem;
+    font-size: 0.82rem;
+    color: var(--graphite);
+    margin-top: 1rem;
+  }
+
+  footer {
+    max-width: 880px;
+    margin: 3rem auto 0;
+    padding: 1rem 1.5rem 0;
+    border-top: 1px solid var(--line);
+    font-size: 0.75rem;
+    color: var(--graphite);
+    font-family: var(--font-mono);
+  }
+
+  .empty { padding: 1.2rem 0; color: var(--graphite); font-size: 0.85rem; font-style: italic; }
+
+  @media (max-width: 560px) {
+    .event { grid-template-columns: 56px 1fr; }
+    .rail { padding-right: 0.5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="eyebrow"><span class="dot"></span> NOVARA · AUSTIN + USA + GLOBAL EVENTS TRACKER</div>
+      <h1>Startup &amp; Manufacturing Events</h1>
+      <p class="subtitle">Auto-refreshed every afternoon by AI web search — Austin is the primary focus, plus USA-wide and globally significant startup, robotics and manufacturing events worth flying for. Registration status, attendance and notes below are set manually by you — nothing here is AI-written except the event listings themselves.</p>
+      <div class="meta-row">
+        <span>Last AI refresh: <b id="lastUpdated">—</b></span>
+        <span>Next refresh: <b>tomorrow, 7:00 AM CT</b></span>
+        <span id="upcomingCount"></span>
+      </div>
+      <div class="filters" id="filters"></div>
+    </div>
+  </div>
+
+  <main>
+    <section class="block">
+      <div class="block-head"><h2>Upcoming — earliest to latest</h2><span class="count" id="upcomingCountTag"></span></div>
+      <div class="block-note">Confirmed-date events only. Registration deadlines under 14 days are flagged.</div>
+      <div class="timeline" id="upcomingList"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><h2>Watchlist — date not yet confirmed</h2><span class="count" id="watchCountTag"></span></div>
+      <div class="block-note">Recurring or ad-hoc events with no confirmed next date. Moves to Upcoming once AI search finds a date, or add one yourself.</div>
+      <div class="watch-grid" id="watchList"></div>
+      <div class="flag-box">⚑ "Arkansas" from the original list couldn't be matched to any known Capital Factory event — flagging for you to clarify (maybe Antler, or a delegation visit?). Tell me and I'll fold it in.</div>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><h2>History</h2><span class="count" id="historyCountTag"></span></div>
+      <div class="block-note">Past events, most recent first. Mark whether you went and log notes — saved in this browser.</div>
+      <div class="timeline" id="historyList"></div>
+    </section>
+  </main>
+
+  <footer>
+    austin-events-tracker · data compiled from Capital Factory, ARMA, and industry event calendars · verify details close to the date via each event's link
+  </footer>
+</div>
+
+<script>
+(function () {
+  var EVENTS = [];
+  var WATCHLIST = [];
+
+  function loadDataAndRender() {
+    fetch("data.json", { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        EVENTS = data.events || [];
+        WATCHLIST = data.watchlist || [];
+        document.getElementById("lastUpdated").textContent = data.lastUpdated || "unknown";
+        renderAll();
+      })
+      .catch(function (err) {
+        document.getElementById("lastUpdated").textContent = "load failed";
+        console.error("Failed to load data.json", err);
+      });
+  }
+
+  var STORE_KEY = "novara-austin-events-state-v1";
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch (e) { state = {}; }
+  function save() { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
+  function get(id) { return state[id] || {}; }
+  function set(id, patch) { state[id] = Object.assign({}, get(id), patch); save(); }
+
+  var MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+  function fmtRail(iso) {
+    var d = new Date(iso + "T00:00:00");
+    return { day: d.getDate(), mon: MONTHS[d.getMonth()], yr: d.getFullYear() };
+  }
+  function daysUntil(iso) {
+    var today = new Date(); today.setHours(0,0,0,0);
+    var d = new Date(iso + "T00:00:00");
+    return Math.round((d - today) / 86400000);
+  }
+  function fmtRange(ev) {
+    var start = new Date(ev.dateStart + "T00:00:00");
+    var opts = { weekday: "short", month: "short", day: "numeric", year: "numeric" };
+    var s = start.toLocaleDateString("en-US", opts);
+    if (ev.dateEnd && ev.dateEnd !== ev.dateStart) {
+      var end = new Date(ev.dateEnd + "T00:00:00");
+      s += " – " + end.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    }
+    return s;
+  }
+
+  var today = new Date(); today.setHours(0,0,0,0);
+  function isPast(ev) {
+    var ref = ev.dateEnd || ev.dateStart;
+    var d = new Date(ref + "T00:00:00");
+    return d < today;
+  }
+
+  var CATS = [
+    { key: "all", label: "All" },
+    { key: "community", label: "Austin Community" },
+    { key: "manufacturing", label: "Austin Manufacturing" },
+    { key: "regional", label: "Texas Regional" },
+    { key: "national", label: "USA — National" },
+    { key: "global", label: "Global" }
+  ];
+  var activeFilter = "all";
+
+  function renderFilters() {
+    var el = document.getElementById("filters");
+    el.innerHTML = "";
+    CATS.forEach(function (c) {
+      var btn = document.createElement("button");
+      btn.className = "chip";
+      btn.textContent = c.label;
+      btn.setAttribute("aria-pressed", String(c.key === activeFilter));
+      btn.addEventListener("click", function () { activeFilter = c.key; renderAll(); });
+      el.appendChild(btn);
+    });
+  }
+
+  function buildEventRow(ev, past) {
+    var row = document.createElement("div");
+    row.className = "event" + (past ? " past" : "");
+
+    var rail = document.createElement("div");
+    rail.className = "rail";
+    if (ev.dateStart) {
+      var f = fmtRail(ev.dateStart);
+      rail.innerHTML = '<div class="day">' + f.day + '</div><div class="mon">' + f.mon + '</div><div class="yr">' + f.yr + '</div>';
+    }
+    row.appendChild(rail);
+
+    var body = document.createElement("div");
+
+    var titleRow = document.createElement("div");
+    titleRow.className = "card-title-row";
+    titleRow.innerHTML = '<span class="card-title">' + ev.title + '</span>' +
+      '<span class="org">' + ev.org + '</span>' +
+      (ev.tag ? '<span class="tag">' + ev.tag + '</span>' : "");
+    body.appendChild(titleRow);
+
+    var desc = document.createElement("p");
+    desc.className = "desc";
+    desc.textContent = ev.desc;
+    body.appendChild(desc);
+
+    var facts = document.createElement("div");
+    facts.className = "facts";
+    var factBits = [];
+    factBits.push("<span>" + fmtRange(ev) + (ev.time ? " · " + ev.time : "") + "</span>");
+    if (ev.location) factBits.push("<span>" + ev.location + "</span>");
+    if (ev.cost) factBits.push("<span>" + ev.cost + "</span>");
+    if (ev.link) factBits.push('<span><a href="' + ev.link + '" target="_blank" rel="noopener">' + ev.link.replace(/^https?:\/\//, "") + "</a></span>");
+    facts.innerHTML = factBits.join("");
+    body.appendChild(facts);
+
+    if (!past) {
+      var du = daysUntil(ev.dateStart);
+      var badges = document.createElement("div");
+      badges.style.marginBottom = "0.5rem";
+      if (ev.registerBy) {
+        var rDays = daysUntil(ev.registerBy);
+        var badge = document.createElement("span");
+        badge.className = "badge " + (rDays <= 14 ? "urgent" : "ok");
+        badge.textContent = rDays < 0 ? "Registration window may have closed" : "Register by " + ev.registerBy + " (" + rDays + "d)";
+        badges.appendChild(badge);
+      } else if (du <= 14) {
+        var badge2 = document.createElement("span");
+        badge2.className = "badge urgent";
+        badge2.textContent = du <= 0 ? "Happening now / very soon" : "In " + du + " days — check registration";
+        badges.appendChild(badge2);
+      }
+      body.appendChild(badges);
+    }
+
+    var controls = document.createElement("div");
+    controls.className = "controls";
+    var st = get(ev.id);
+
+    if (!past) {
+      var regBtn = document.createElement("button");
+      regBtn.className = "toggle-btn registered" + (st.registered ? " on" : "");
+      regBtn.textContent = st.registered ? "✓ Registered" : "Mark registered";
+      regBtn.addEventListener("click", function () {
+        set(ev.id, { registered: !get(ev.id).registered });
+        renderAll();
+      });
+      controls.appendChild(regBtn);
+    } else {
+      var wentBtn = document.createElement("button");
+      wentBtn.className = "toggle-btn went" + (st.attended === true ? " on" : "");
+      wentBtn.textContent = st.attended === true ? "✓ Went" : "Mark: went";
+      wentBtn.addEventListener("click", function () {
+        set(ev.id, { attended: get(ev.id).attended === true ? null : true });
+        renderAll();
+      });
+      var skipBtn = document.createElement("button");
+      skipBtn.className = "toggle-btn skipped" + (st.attended === false ? " on" : "");
+      skipBtn.textContent = st.attended === false ? "✕ Skipped" : "Mark: skipped";
+      skipBtn.addEventListener("click", function () {
+        set(ev.id, { attended: get(ev.id).attended === false ? null : false });
+        renderAll();
+      });
+      controls.appendChild(wentBtn);
+      controls.appendChild(skipBtn);
+    }
+
+    var notes = document.createElement("textarea");
+    notes.className = "notes-field";
+    notes.rows = 1;
+    notes.placeholder = past ? "Notes from the event…" : "Notes (who to meet, prep, etc.)…";
+    notes.value = st.notes || "";
+    notes.addEventListener("change", function () { set(ev.id, { notes: notes.value }); });
+    controls.appendChild(notes);
+
+    body.appendChild(controls);
+    row.appendChild(body);
+    return row;
+  }
+
+  function matchesFilter(ev) {
+    return activeFilter === "all" || ev.category === activeFilter;
+  }
+
+  function renderAll() {
+    renderFilters();
+
+    var upcoming = EVENTS.filter(function (e) { return e.dateStart && !isPast(e) && matchesFilter(e); })
+      .sort(function (a, b) { return a.dateStart.localeCompare(b.dateStart); });
+    var history = EVENTS.filter(function (e) { return e.dateStart && isPast(e) && matchesFilter(e); })
+      .sort(function (a, b) { return b.dateStart.localeCompare(a.dateStart); });
+
+    var upcomingList = document.getElementById("upcomingList");
+    upcomingList.innerHTML = "";
+    if (upcoming.length === 0) {
+      var empty = document.createElement("div");
+      empty.className = "empty";
+      empty.textContent = "No upcoming events match this filter.";
+      upcomingList.appendChild(empty);
+    } else {
+      upcoming.forEach(function (ev) { upcomingList.appendChild(buildEventRow(ev, false)); });
+    }
+    document.getElementById("upcomingCountTag").textContent = upcoming.length;
+    document.getElementById("upcomingCount").textContent = upcoming.length + " upcoming, dated";
+
+    var historyList = document.getElementById("historyList");
+    historyList.innerHTML = "";
+    if (history.length === 0) {
+      var empty2 = document.createElement("div");
+      empty2.className = "empty";
+      empty2.textContent = "No past events match this filter.";
+      historyList.appendChild(empty2);
+    } else {
+      history.forEach(function (ev) { historyList.appendChild(buildEventRow(ev, true)); });
+    }
+    document.getElementById("historyCountTag").textContent = history.length;
+
+    var watchList = document.getElementById("watchList");
+    watchList.innerHTML = "";
+    WATCHLIST.forEach(function (w) {
+      var row = document.createElement("div");
+      row.className = "watch-row";
+      var left = document.createElement("div");
+      left.innerHTML = '<div class="watch-title">' + w.title + (w.link ? ' — <a href="' + w.link + '" target="_blank" rel="noopener">link</a>' : "") + '</div>' +
+        '<div class="watch-meta">' + w.org + " · " + w.meta + "</div>";
+      var right = document.createElement("div");
+      right.className = "watch-cadence";
+      right.textContent = w.cadence;
+      row.appendChild(left);
+      row.appendChild(right);
+      watchList.appendChild(row);
+    });
+    document.getElementById("watchCountTag").textContent = WATCHLIST.length;
+  }
+
+  loadDataAndRender();
+})();
+</script>
+</body>
+</html>

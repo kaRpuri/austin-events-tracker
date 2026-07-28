@@ -1,0 +1,582 @@
+{
+  "lastUpdated": "Jul 28, 2026",
+  "events": [
+    {
+      "id": "fiesta-2026-12",
+      "title": "FIESTA",
+      "org": "Capital Factory",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-12-15",
+      "time": "5:30 PM CT",
+      "location": "Station Austin, 701 Brazos St, Austin, TX",
+      "cost": "Free / suggested $15",
+      "link": "https://capitalfactory.com/event/fiesta",
+      "desc": "Flagship monthly founder mixer — 12 founders pitch, warm intros to investors and mentors. Recurring monthly, ~3rd Tuesday."
+    },
+    {
+      "id": "fed-supernova-2026",
+      "title": "Fed Supernova",
+      "org": "Capital Factory",
+      "category": "community",
+      "tag": "Dual-use / Defense",
+      "dateStart": "2026-08-18",
+      "dateEnd": "2026-08-20",
+      "time": "3-day conference",
+      "location": "STATION Austin, 701 Brazos St (keynotes at the Paramount Theatre)",
+      "cost": "Paid, tiered registration",
+      "link": "https://fedsupernova.com",
+      "desc": "CF's flagship dual-use/defense-tech conference — DoD, DIU, AFWERX, SpaceWERX, VCs and dual-use startups. Hotel block at Omni Austin Downtown, $209/night. Dates corrected Jul 28, 2026 refresh — previously listed as Aug 25–27."
+    },
+    {
+      "id": "austin-robotics-ai-2026-07",
+      "title": "Austin Robotics & AI",
+      "org": "Meetup — HICAM",
+      "category": "community",
+      "tag": "Core · Robotics",
+      "dateStart": "2026-07-29",
+      "time": "6:00 – 8:00 PM",
+      "location": "HICAM, East Austin",
+      "cost": "Free–low cost",
+      "link": "https://www.meetup.com/Austin-Robotics-AI/",
+      "desc": "Humanoids, industrial automation, manufacturing robotics talks. Recurring monthly at HICAM; next known date after this one is Aug 26, 2026."
+    },
+    {
+      "id": "austin-startup-meetup-2026-08",
+      "title": "Austin Startup Meetup",
+      "org": "Austin Startup Meetup",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-08-03",
+      "time": "6:00 – 9:00 PM",
+      "location": "Station Austin, 701 Brazos St",
+      "cost": "Free–low cost",
+      "link": "https://www.austinstartupmeetup.com/",
+      "desc": "Founders, investors and industry experts share knowledge, challenges and lessons from their startup journey. Recurring monthly."
+    },
+    {
+      "id": "ctan-speed-mentoring-2026-09",
+      "title": "CTAN Angel Speed Mentoring",
+      "org": "Central Texas Angel Network",
+      "category": "community",
+      "tag": "Investor",
+      "dateStart": "2026-09-04",
+      "time": "9:45 – 11:45 AM",
+      "location": "See CTAN listing",
+      "cost": "Free–low cost",
+      "link": "https://www.ctan.com/events-calendar",
+      "desc": "Structured mentoring session with CTAN angel investors."
+    },
+    {
+      "id": "ctan-cycle3-vpitch-2026-09",
+      "title": "CTAN Funding Cycle 3 — Virtual Pitch Event",
+      "org": "Central Texas Angel Network",
+      "category": "community",
+      "tag": "Investor",
+      "dateStart": "2026-09-15",
+      "time": "5:00 – 7:30 PM CT",
+      "location": "Virtual",
+      "cost": "Free to watch as a guest; apply to pitch",
+      "link": "https://www.ctan.com/events-calendar",
+      "desc": "Has a Hardware/Other sector bucket in the application."
+    },
+    {
+      "id": "ctan-cycle5-vpitch-2026-10",
+      "title": "CTAN Funding Cycle 5 — Virtual Pitch Event",
+      "org": "Central Texas Angel Network",
+      "category": "community",
+      "tag": "Investor",
+      "dateStart": "2026-10-27",
+      "time": "5:00 – 7:30 PM CT",
+      "location": "Virtual",
+      "cost": "Free to watch as a guest; apply to pitch",
+      "link": "https://www.ctan.com/events-calendar",
+      "desc": "Precedes the in-person Cycle 5 Pitch Night on Nov 5."
+    },
+    {
+      "id": "ctan-cycle5-pitchnight-2026-11",
+      "title": "CTAN Funding Cycle 5 — Pitch Night",
+      "org": "Central Texas Angel Network",
+      "category": "community",
+      "tag": "Investor",
+      "dateStart": "2026-11-05",
+      "time": "5:00 – 8:30 PM CT",
+      "location": "See CTAN listing",
+      "cost": "Free to watch as a guest; apply to pitch",
+      "link": "https://www.ctan.com/events-calendar",
+      "desc": "In-person pitch night for Funding Cycle 5 companies."
+    },
+    {
+      "id": "arma-luncheon-2026-08",
+      "title": "ARMA Monthly Luncheon",
+      "org": "Austin Regional Manufacturers Association",
+      "category": "manufacturing",
+      "tag": "Manufacturing",
+      "dateStart": "2026-08-18",
+      "time": "11:30 AM – 1:00 PM",
+      "location": "Rotating venue (e.g. Embassy Suites Round Rock)",
+      "cost": "$30–50 member/non-member",
+      "link": "https://arma-tx.org/events",
+      "desc": "Monthly peer luncheon — recurring, best low-commitment entry point into Austin's manufacturer community."
+    },
+    {
+      "id": "arma-workforce-2026-07",
+      "title": "ARMA Workforce Committee Meeting",
+      "org": "Austin Regional Manufacturers Association",
+      "category": "manufacturing",
+      "tag": "Manufacturing",
+      "dateStart": "2026-07-28",
+      "location": "Skillpoint Alliance",
+      "cost": "Free, open to members",
+      "link": "https://arma-tx.org/events",
+      "desc": "Monthly workforce-committee meeting."
+    },
+    {
+      "id": "austin-tech-week-2026",
+      "title": "Austin Tech Week",
+      "org": "Austin tech community",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-10-26",
+      "dateEnd": "2026-10-30",
+      "location": "Venues across Austin",
+      "cost": "Mostly free / low-cost per event",
+      "link": null,
+      "desc": "City-wide 5-day founder/investor event series, successor to Austin Startup Week."
+    },
+    {
+      "id": "welding-summit-2026",
+      "title": "Welding Summit 2026",
+      "org": "American Welding Society",
+      "category": "manufacturing",
+      "tag": "Manufacturing",
+      "dateStart": "2026-08-05",
+      "dateEnd": "2026-08-07",
+      "location": "The Woodlands, TX (Houston area)",
+      "cost": "Paid",
+      "link": "https://www.aws.org",
+      "desc": "Welding and fabrication professionals — knowledge sharing, innovation."
+    },
+    {
+      "id": "imts-2026",
+      "title": "IMTS 2026",
+      "org": "AMT",
+      "category": "national",
+      "tag": "Flagship",
+      "dateStart": "2026-09-14",
+      "dateEnd": "2026-09-19",
+      "location": "Chicago, IL",
+      "cost": "Paid, tiered",
+      "link": "https://www.imts.com",
+      "desc": "The flagship U.S. manufacturing technology show — machine tools, automation, CNC, robotics."
+    },
+    {
+      "id": "camx-2026",
+      "title": "CAMX",
+      "org": "Composites and Advanced Materials Expo",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-09-21",
+      "dateEnd": "2026-09-24",
+      "location": "Atlanta, GA",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Composites and advanced materials expo."
+    },
+    {
+      "id": "icam26",
+      "title": "ICAM26 (ASTM)",
+      "org": "ASTM International",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-09-28",
+      "dateEnd": "2026-10-02",
+      "location": "Orlando, FL",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Standards, qualification and certification for advanced (especially additive) manufacturing."
+    },
+    {
+      "id": "semicon-west-2026",
+      "title": "SEMICON West",
+      "org": "SEMI",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-10-13",
+      "dateEnd": "2026-10-15",
+      "location": "San Francisco, CA",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Semiconductor / microelectronics manufacturing — equipment, materials, process."
+    },
+    {
+      "id": "fabtech-2026",
+      "title": "FABTECH 2026",
+      "org": "FABTECH",
+      "category": "national",
+      "tag": "Flagship",
+      "dateStart": "2026-10-21",
+      "dateEnd": "2026-10-23",
+      "location": "Las Vegas, NV",
+      "cost": "Paid",
+      "link": "https://www.fabtechexpo.com",
+      "desc": "North America's largest metal forming, fabrication, welding and finishing event."
+    },
+    {
+      "id": "assembly-show-2026",
+      "title": "The Assembly Show",
+      "org": "Assembly Magazine",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-10-27",
+      "dateEnd": "2026-10-29",
+      "location": "Rosemont, IL",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Assembly tech — robotics, fastening, inspection."
+    },
+    {
+      "id": "ame-milwaukee-2026",
+      "title": "AME Milwaukee International Conference",
+      "org": "AME",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-10-26",
+      "dateEnd": "2026-10-29",
+      "location": "Milwaukee, WI",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Premier lean / continuous-improvement conference."
+    },
+    {
+      "id": "formnext-2026",
+      "title": "Formnext 2026",
+      "org": "Mesago",
+      "category": "global",
+      "tag": "Flagship",
+      "dateStart": "2026-11-17",
+      "dateEnd": "2026-11-20",
+      "location": "Frankfurt, Germany",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Leading global additive manufacturing / industrial 3D printing event."
+    },
+    {
+      "id": "womens-mfg-2026",
+      "title": "Women in Manufacturing",
+      "org": "ARMA",
+      "category": "manufacturing",
+      "tag": "Manufacturing",
+      "dateStart": "2026-05-19",
+      "location": "Austin, TX",
+      "cost": "Paid",
+      "link": "https://arma-tx.org/events",
+      "desc": "Annual ARMA event."
+    },
+    {
+      "id": "sporting-clays-2026",
+      "title": "ARMA Sporting Clays Tournament",
+      "org": "ARMA",
+      "category": "manufacturing",
+      "tag": "Manufacturing",
+      "dateStart": "2026-07-16",
+      "location": "Austin area",
+      "cost": "Paid, sponsorship tables available",
+      "link": "https://arma-tx.org/events",
+      "desc": "Annual summer tournament."
+    },
+    {
+      "id": "contrax-2026",
+      "title": "CONTRAX Austin",
+      "org": "Gardner Business Media",
+      "category": "manufacturing",
+      "tag": "Manufacturing",
+      "dateStart": "2026-06-24",
+      "dateEnd": "2026-06-25",
+      "location": "Austin, TX",
+      "cost": "Free for qualified attendees",
+      "link": null,
+      "desc": "Contract-manufacturing showcase — buyers/suppliers in the contract mfg ecosystem. Watch for 2027 dates."
+    },
+    {
+      "id": "armies-awards-2026",
+      "title": "ARMIES Manufacturing Awards Luncheon",
+      "org": "ARMA",
+      "category": "manufacturing",
+      "tag": "Manufacturing",
+      "dateStart": "2026-02-26",
+      "location": "Westin at the Domain, Austin",
+      "cost": "$100–180",
+      "link": "https://arma-tx.org/events",
+      "desc": "Annual awards luncheon."
+    },
+    {
+      "id": "3dx-world-2026",
+      "title": "3D Experience World 2026",
+      "org": "Dassault / SOLIDWORKS",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-02-01",
+      "dateEnd": "2026-02-04",
+      "location": "Houston, TX",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Design-to-manufacturing, digital engineering, simulation."
+    },
+    {
+      "id": "ampp-2026",
+      "title": "AMPP Annual Conference & Expo",
+      "org": "AMPP",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-03-15",
+      "dateEnd": "2026-03-19",
+      "location": "Houston, TX",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Largest global event for corrosion control, coatings, materials protection."
+    },
+    {
+      "id": "names-2026",
+      "title": "North American Manufacturing Excellence Summit (NAMES)",
+      "org": "NAMES",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-04-20",
+      "dateEnd": "2026-04-22",
+      "location": "Houston, TX",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Ops / supply chain / quality leadership summit."
+    },
+    {
+      "id": "design2part-2026",
+      "title": "Design-2-Part | Texas",
+      "org": "Design-2-Part",
+      "category": "regional",
+      "tag": "Manufacturing",
+      "dateStart": "2026-04-01",
+      "dateEnd": "2026-04-02",
+      "location": "Irving, TX (Dallas area)",
+      "cost": "Free–low cost",
+      "link": null,
+      "desc": "Regional sourcing show connecting OEMs with contract manufacturers/job shops. Recurs annually — watch for 2027 dates."
+    },
+    {
+      "id": "automate-2026",
+      "title": "Automate",
+      "org": "A3",
+      "category": "national",
+      "tag": "Core · Robotics",
+      "dateStart": "2026-06-22",
+      "dateEnd": "2026-06-25",
+      "location": "Chicago, IL",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Premier robotics / automation / industrial-AI conference — you already attend this regularly. Next edition summer 2027."
+    },
+    {
+      "id": "modex-2026",
+      "title": "MODEX",
+      "org": "MHI",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-04-13",
+      "dateEnd": "2026-04-16",
+      "location": "Atlanta, GA",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Top supply-chain automation show, factory floor to distribution."
+    },
+    {
+      "id": "rapidtct-2026",
+      "title": "RAPID + TCT / AeroDef Manufacturing",
+      "org": "SME",
+      "category": "national",
+      "tag": "Manufacturing",
+      "dateStart": "2026-04-13",
+      "dateEnd": "2026-04-16",
+      "location": "Boston, MA",
+      "cost": "Paid",
+      "link": null,
+      "desc": "Additive manufacturing + aerospace/defense production tech, co-located."
+    }
+  ],
+  "watchlist": [
+    {
+      "title": "Member Salon",
+      "org": "Capital Factory",
+      "cadence": "Recurring, members-only",
+      "meta": "Closed-door member mixer/discussion series. Ask your CF community manager.",
+      "link": "https://capitalfactory.com/in-person"
+    },
+    {
+      "title": "Prototown",
+      "org": "Independent (Lockhart, TX)",
+      "cadence": "Ad hoc",
+      "meta": "1,200-acre hard-tech manufacturing campus — occasional large gatherings (robots, aircraft, heavy equipment demos). Last known: March 2026.",
+      "link": "https://prototown.com"
+    },
+    {
+      "title": "HICAM programming",
+      "org": "Hayes Innovation Center for Advanced Manufacturing",
+      "cadence": "Ongoing + occasional talks",
+      "meta": "50,000 sq ft advanced-mfg hub, East Austin. Partners with Capital Factory.",
+      "link": "https://hicam.io"
+    },
+    {
+      "title": "Opportunity Austin — Soft-Landing Program",
+      "org": "Austin Chamber",
+      "cadence": "Rolling",
+      "meta": "Curated networking/educational events for new and relocating companies.",
+      "link": "https://opportunityaustin.com"
+    },
+    {
+      "title": "Antler + Capital Factory sessions",
+      "org": "Antler",
+      "cadence": "Ad hoc",
+      "meta": "Co-hosted sessions, incl. some Cup of Capital editions.",
+      "link": "https://antler.co"
+    },
+    {
+      "title": "Q Branch Accelerator events",
+      "org": "Q-Branch",
+      "cadence": "Ad hoc, incl. multi-day delegation weeks",
+      "meta": "Commercialization / gov't-defense acceleration, 6th Street venue.",
+      "link": "https://q-branch.dev"
+    },
+    {
+      "title": "Cup of Capital (Austin)",
+      "org": "Capital Factory",
+      "cadence": "1st & 3rd Friday mornings",
+      "meta": "Public coffee-networking — low-key way to meet founders/investors.",
+      "link": "https://capitalfactory.com/cup-of-capital"
+    },
+    {
+      "title": "Cup of Capital (Houston / Dallas / San Antonio)",
+      "org": "Capital Factory",
+      "cadence": "Select Fridays",
+      "meta": "Same format, run in-market.",
+      "link": "https://capitalfactory.com/cup-of-capital"
+    },
+    {
+      "title": "Open Coworking Tuesdays",
+      "org": "Capital Factory",
+      "cadence": "Every Tuesday, 10am–4pm",
+      "meta": "Free public tour + open coworking.",
+      "link": "https://membershiptour.capitalfactory.com"
+    },
+    {
+      "title": "ARMA State of Manufacturing Expo & Conference",
+      "org": "ARMA",
+      "cadence": "Bi-annual per ARMA's own site (2026 date TBD, recent editions ~Sept 24)",
+      "meta": "Flagship expo — policy, robotics, workforce, supplier floor. AT&T Hotel & Conference Center.",
+      "link": "https://arma-tx.org/events"
+    },
+    {
+      "title": "Austin Industrial Summit",
+      "org": "Bisnow",
+      "cadence": "2026, exact date TBD",
+      "meta": "Site selection, industrial construction costs, manufacturing growth trends.",
+      "link": null
+    },
+    {
+      "title": "Central Texas Angel Network — Founder Info Session",
+      "org": "CTAN",
+      "cadence": "~Quarterly, virtual",
+      "meta": "\"How to Maximize Your Opportunity to Close an Investment.\"",
+      "link": "https://centraltexasangelnetwork.com"
+    },
+    {
+      "title": "CTAN Angel Speed Dating",
+      "org": "CTAN",
+      "cadence": "~Quarterly, virtual",
+      "meta": "Free.",
+      "link": "https://centraltexasangelnetwork.com"
+    },
+    {
+      "title": "CTAN Pitch Cycle (virtual + in-person pitch night)",
+      "org": "CTAN",
+      "cadence": "Each funding cycle, ~6 weeks",
+      "meta": "Free to watch as a guest; apply to pitch. Has a Hardware/Other sector bucket.",
+      "link": "https://centraltexasangelnetwork.com"
+    },
+    {
+      "title": "Austin Robotics & AI meetup",
+      "org": "meetup.com/austin-robotics-ai",
+      "cadence": "Monthly, ~last Wednesday, 6-8pm at HICAM",
+      "meta": "Humanoids, industrial automation, manufacturing robotics talks. Next known dates beyond the one in Upcoming: Aug 26, 2026.",
+      "link": "https://www.meetup.com/austin-robotics-ai"
+    },
+    {
+      "title": "Austin Hardware Startup Meetup",
+      "org": "meetup.com/austin-hardware-startup",
+      "cadence": "Restarting through 2026",
+      "meta": "Long-running hardware/physical-product founder group.",
+      "link": "https://www.meetup.com/austin-hardware-startup"
+    },
+    {
+      "title": "Austin Hardware",
+      "org": "meetup.com/austin-hardware-meetup",
+      "cadence": "Ongoing",
+      "meta": "Sister group, same physical-product startup focus.",
+      "link": "https://www.meetup.com/austin-hardware-meetup"
+    },
+    {
+      "title": "AI Tinkerers Austin",
+      "org": "Capital Factory / STATION Austin",
+      "cadence": "Weekly-ish",
+      "meta": "Builder demo nights — has covered 3D perception for robotics.",
+      "link": null
+    },
+    {
+      "title": "\"Physical AI\" podcast live tapings",
+      "org": "Austin/San Antonio Entrepreneurs meetup",
+      "cadence": "Ad hoc",
+      "meta": "Live recordings with VCs (incl. NVIDIA people), robotics founders.",
+      "link": null
+    },
+    {
+      "title": "F50 Physical AI Industrial Summit",
+      "org": "F50",
+      "cadence": "Timed around SXSW (~March)",
+      "meta": "Invite-heavy — VCs, industrial groups, live robot/smart-factory demos.",
+      "link": null
+    },
+    {
+      "title": "Austin Startup Meetup",
+      "org": "Austin Startup Meetup",
+      "cadence": "Monthly",
+      "meta": "Founder/investor meetup + widely-read ecosystem newsletter.",
+      "link": null
+    },
+    {
+      "title": "Scrappy Startups Meetup",
+      "org": "Scrappy Startups",
+      "cadence": "Monthly",
+      "meta": "Practical/tactical session for early founders.",
+      "link": null
+    },
+    {
+      "title": "Founders Running Club",
+      "org": "Founders Running Club",
+      "cadence": "Weekly, Saturday",
+      "meta": "Run + coffee, founders/investors.",
+      "link": null
+    },
+    {
+      "title": "Tech Startups, Investors, Professionals: Pitch & Networking",
+      "org": "Eventbrite",
+      "cadence": "Recurring",
+      "meta": "Pitch night, 201 Brazos St, downtown Austin.",
+      "link": null
+    },
+    {
+      "title": "\"State of Texas Startups & VC\" panel",
+      "org": "FI Texas",
+      "cadence": "Occasional",
+      "meta": "Panel on the state of Texas VC.",
+      "link": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+name: Update events tracker
+
+on:
+  schedule:
+    # 3:00 PM US Central time. GitHub Actions cron is UTC-only, so this is
+    # hand-converted and needs a manual flip across DST:
+    #   CDT (roughly mid-Mar to early Nov): 20:00 UTC  <- currently set below
+    #   CST (roughly early Nov to mid-Mar): 21:00 UTC
+    - cron: "0 20 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Run update script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python update_events.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "events-tracker-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet -- data.json; then
+            git add data.json
+            git commit -m "Daily events refresh: $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes to data.json"
+          fi
