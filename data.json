@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Jul 28, 2026",
+  "lastUpdated": "Aug 10, 2026",
   "events": [
     {
       "id": "fiesta-2026-12",
@@ -26,7 +26,7 @@
       "location": "STATION Austin, 701 Brazos St (keynotes at the Paramount Theatre)",
       "cost": "Paid, tiered registration",
       "link": "https://fedsupernova.com",
-      "desc": "CF's flagship dual-use/defense-tech conference — DoD, DIU, AFWERX, SpaceWERX, VCs and dual-use startups. Hotel block at Omni Austin Downtown, $209/night. Dates corrected Jul 28, 2026 refresh — previously listed as Aug 25–27. Re-confirmed Aug 18–20, 2026 via fedsupernova.com FAQ, Army PIT listing, and organizer's own announcement (note: some third-party aggregator sites still show stale Aug 25–27 date — official sources say Aug 18–20)."
+      "desc": "CF's flagship dual-use/defense-tech conference — DoD, DIU, AFWERX, SpaceWERX, VCs and dual-use startups. Hotel block at Omni Austin Downtown, $209/night. Dates corrected Jul 28, 2026 refresh — previously listed as Aug 25–27. Re-confirmed Aug 18–20, 2026 via fedsupernova.com FAQ page as of Aug 10, 2026 refresh (\"August 18 - 20, 2026\"). Note: some third-party/aggregator sources (10times, and even a Capital Factory registration-confirmation page) still show a stale Aug 25–27 date — the organizer's own FAQ and X/social announcement are authoritative at Aug 18–20."
     },
     {
       "id": "austin-robotics-ai-2026-07",
@@ -283,7 +283,7 @@
       "location": "Austin area",
       "cost": "Paid, sponsorship tables available",
       "link": "https://arma-tx.org/events",
-      "desc": "Annual summer tournament."
+      "desc": "Annual summer tournament. Confirmed as \"2026 Summer Sporting Clays Tournament\", Jul 16, 8:30 AM–1:30 PM, Florence, TX."
     },
     {
       "id": "contrax-2026",
@@ -423,7 +423,19 @@
       "location": "Capital Factory, Austin, TX",
       "cost": "Free (register on Luma)",
       "link": "https://founderpath.com/ai-growth-summit/events/austin-2026",
-      "desc": "Austin stop of the AI Growth Summit tour — founders, operators, and investors gathering at Capital Factory; feeds into the larger AI Growth Summit USA event in September."
+      "desc": "Austin stop of the AI Growth Summit tour — founders, operators, and investors gathering at Capital Factory; feeds into the larger AI Growth Summit USA event in September (confirmed Sept 9, 2026, San Francisco)."
+    },
+    {
+      "id": "ai-growth-summit-usa-2026-09",
+      "title": "AI Growth Summit USA 2026",
+      "org": "Founderpath",
+      "category": "national",
+      "tag": "Community",
+      "dateStart": "2026-09-09",
+      "location": "San Francisco, CA",
+      "cost": "Register via Luma",
+      "link": "https://founderpath.com/ai-growth-summit/events/sf-2026",
+      "desc": "Flagship national edition of the AI Growth Summit tour (the Austin, NYC, Toronto and other city stops all feed into this main SF event) — foundation model labs, AI tooling companies, and founders/operators/investors in one room."
     }
   ],
   "watchlist": [
@@ -466,14 +478,14 @@
       "title": "Q Branch Accelerator events",
       "org": "Q-Branch",
       "cadence": "Ad hoc, incl. multi-day delegation weeks",
-      "meta": "Commercialization / gov't-defense acceleration, 6th Street venue.",
+      "meta": "Commercialization / gov't-defense acceleration, 6th Street venue. Now booking for SXSW 2026 and beyond; over 75 events hosted since 2024.",
       "link": "https://q-branch.dev"
     },
     {
       "title": "Cup of Capital (Austin)",
       "org": "Capital Factory",
       "cadence": "1st & 3rd Friday mornings",
-      "meta": "Public coffee-networking — low-key way to meet founders/investors.",
+      "meta": "Public coffee-networking — low-key way to meet founders/investors. Next confirmed instance found: Oct 2, 2026, 9:00 AM.",
       "link": "https://capitalfactory.com/cup-of-capital"
     },
     {
@@ -494,7 +506,7 @@
       "title": "ARMA State of Manufacturing Expo & Conference",
       "org": "ARMA",
       "cadence": "Bi-annual per ARMA's own site (2026 date TBD, recent editions ~Sept 24)",
-      "meta": "Flagship expo — policy, robotics, workforce, supplier floor. AT&T Hotel & Conference Center.",
+      "meta": "Flagship expo — policy, robotics, workforce, supplier floor. AT&T Hotel & Conference Center. As of Aug 2026 refresh, ARMA's own committee list shows its Tradeshow Committee doesn't start until \"November 2026\", suggesting the next Expo edition may land in early/mid-2027 rather than late 2026 — watch arma-tx.org/events for the confirmed date.",
       "link": "https://arma-tx.org/events"
     },
     {
@@ -536,21 +548,21 @@
       "title": "Austin Hardware Startup Meetup",
       "org": "meetup.com/austin-hardware-startup",
       "cadence": "Restarting through 2026",
-      "meta": "Long-running hardware/physical-product founder group.",
+      "meta": "Long-running hardware/physical-product founder group. Group's own listing (as of Aug 2026) says it has been dormant but is working to bring events back in 2026 — no confirmed next date yet.",
       "link": "https://www.meetup.com/austin-hardware-startup"
     },
     {
       "title": "Austin Hardware",
       "org": "meetup.com/austin-hardware-meetup",
       "cadence": "Ongoing",
-      "meta": "Sister group, same physical-product startup focus.",
+      "meta": "Sister group, same physical-product startup focus. Also has a companion Luma calendar (luma.com/atx-hardware-meetup).",
       "link": "https://www.meetup.com/austin-hardware-meetup"
     },
     {
       "title": "AI Tinkerers Austin",
       "org": "Capital Factory / STATION Austin",
       "cadence": "Weekly-ish",
-      "meta": "Builder demo nights — has covered 3D perception for robotics.",
+      "meta": "Builder demo nights — has covered 3D perception for robotics. Runs regular \"Demo Night\" sessions (e.g. Jan 2026 Demo Night); check austin.aitinkerers.org for the current month's date.",
       "link": null
     },
     {
@@ -620,8 +632,15 @@
       "title": "Hack AI",
       "org": "Capital Factory / meetup.com/hack-ai",
       "cadence": "Monthly, 1st Thursday, 6:00 PM",
-      "meta": "Themed builder session each month (Voice AI, LLMs, Computer Vision, etc.) at STATION Austin.",
+      "meta": "Themed builder session each month (Voice AI, LLMs, Computer Vision, etc.) at STATION Austin. Confirmed recurring format still running as of Jan 2026 session.",
       "link": "https://www.meetup.com/hack-ai/"
+    },
+    {
+      "title": "H³ ATX — Hardware Happy Hour",
+      "org": "Independent (Eventbrite listing)",
+      "cadence": "Recurring, ad hoc (seen listed for November edition)",
+      "meta": "Newly identified Austin hardware-founder happy hour/networking series found via Eventbrite search; no confirmed recurring schedule yet — watch Eventbrite for next date.",
+      "link": null
     }
   ]
 }
