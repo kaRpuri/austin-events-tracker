@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Aug 24, 2026",
+  "lastUpdated": "Aug 31, 2026",
   "events": [
     {
       "id": "fiesta-2026-12",
@@ -12,7 +12,7 @@
       "location": "Station Austin, 701 Brazos St, Austin, TX",
       "cost": "Free / suggested $15",
       "link": "https://capitalfactory.com/event/fiesta",
-      "desc": "Flagship monthly founder mixer — 12 founders pitch, warm intros to investors and mentors. Recurring monthly, ~3rd Tuesday. Confirmed via Capital Factory listing (Dec 15, 2026, 5:30–9:30 PM, Station Austin). Re-verified Aug 24, 2026 refresh — recurring monthly format (also runs at Meetup.com/fiesta-atx and Luma) continues through year-end unchanged."
+      "desc": "Flagship monthly founder mixer — 12 founders pitch, warm intros to investors and mentors. Recurring monthly, ~3rd Tuesday. Confirmed via Capital Factory listing (Dec 15, 2026, 5:30–9:30 PM, Station Austin). Re-verified Aug 24, 2026 refresh — recurring monthly format (also runs at Meetup.com/fiesta-atx and Luma) continues through year-end unchanged. Re-confirmed again Aug 31, 2026 refresh via capitalfactory.com/event/fiesta and luma.com/fiesta — same date/time/venue, no change."
     },
     {
       "id": "fed-supernova-2026",
@@ -26,7 +26,7 @@
       "location": "STATION Austin, 701 Brazos St (keynotes at the Paramount Theatre)",
       "cost": "Paid, tiered registration",
       "link": "https://fedsupernova.com",
-      "desc": "CF's flagship dual-use/defense-tech conference — DoD, DIU, AFWERX, SpaceWERX, VCs and dual-use startups. Hotel block at Omni Austin Downtown, $209/night. Dates corrected Jul 28, 2026 refresh — previously listed as Aug 25–27. Re-confirmed Aug 18–20, 2026 via fedsupernova.com FAQ page as of Aug 10, 2026 refresh (\"August 18 - 20, 2026\"). Note: some third-party/aggregator sources (10times, and even a Capital Factory registration-confirmation page) still show a stale Aug 25–27 date — the organizer's own FAQ and X/social announcement are authoritative at Aug 18–20. Re-confirmed again via organizer's own Aug 2026 social post as of Aug 24, 2026 refresh."
+      "desc": "CF's flagship dual-use/defense-tech conference — DoD, DIU, AFWERX, SpaceWERX, VCs and dual-use startups. Hotel block at Omni Austin Downtown, $209/night. Dates corrected Jul 28, 2026 refresh — previously listed as Aug 25–27. Re-confirmed Aug 18–20, 2026 via fedsupernova.com FAQ page as of Aug 10, 2026 refresh (\"August 18 - 20, 2026\"). Note: some third-party/aggregator sources (10times, and even a Capital Factory registration-confirmation page) still show a stale Aug 25–27 date — the organizer's own FAQ and X/social announcement are authoritative at Aug 18–20. Re-confirmed again via organizer's own Aug 2026 social post as of Aug 24, 2026 refresh, and once more via AFWERX's own events-calendar listing during the Aug 31, 2026 refresh. Event has now taken place as of this refresh."
     },
     {
       "id": "austin-robotics-ai-2026-07",
@@ -52,7 +52,7 @@
       "location": "HICAM, East Austin",
       "cost": "Free–low cost",
       "link": "https://www.meetup.com/Austin-Robotics-AI/",
-      "desc": "Humanoids, industrial automation, manufacturing robotics talks. Confirmed via Meetup.com event listing (Wed, Aug 26, 2026, 6:00 PM) during Aug 24, 2026 refresh. Recurring monthly at HICAM; next date beyond this one not yet posted."
+      "desc": "Humanoids, industrial automation, manufacturing robotics talks. Confirmed via Meetup.com event listing (Wed, Aug 26, 2026, 6:00 PM) during Aug 24, 2026 refresh. Recurring monthly at HICAM; next date beyond this one still not posted as of Aug 31, 2026 refresh."
     },
     {
       "id": "austin-startup-meetup-2026-08",
@@ -130,7 +130,7 @@
       "location": "Rotating venue (e.g. Embassy Suites Round Rock)",
       "cost": "$30–50 member/non-member",
       "link": "https://arma-tx.org/events",
-      "desc": "Monthly peer luncheon — recurring, best low-commitment entry point into Austin's manufacturer community."
+      "desc": "Monthly peer luncheon — recurring, best low-commitment entry point into Austin's manufacturer community. Re-confirmed Aug 18, 2026 date via arma-tx.org events listing during Aug 31, 2026 refresh (\"ARMA August Luncheon\"); a September edition is now referenced on ARMA's homepage but no specific date has posted yet."
     },
     {
       "id": "arma-workforce-2026-07",
@@ -142,7 +142,7 @@
       "location": "Skillpoint Alliance",
       "cost": "Free, open to members",
       "link": "https://arma-tx.org/events",
-      "desc": "Monthly workforce-committee meeting."
+      "desc": "Monthly workforce-committee meeting. A September edition is now referenced on ARMA's homepage (\"September Workforce Committee Meeting\") as of Aug 31, 2026 refresh, but no specific date/venue has posted yet — watch arma-tx.org/events."
     },
     {
       "id": "austin-tech-week-2026",
@@ -321,7 +321,7 @@
       "location": "Westin at the Domain, Austin",
       "cost": "$100–180",
       "link": "https://arma-tx.org/events",
-      "desc": "Annual awards luncheon."
+      "desc": "Annual awards luncheon. Location/date cross-checked Aug 31, 2026 refresh (11:00 AM–1:00 PM, Feb 26, 2026, Bass Pro Dr, Round Rock per ARMA's own registration system) — retained the previously listed Westin at the Domain location pending a clearer single source, but date is confirmed."
     },
     {
       "id": "3dx-world-2026",
@@ -456,14 +456,14 @@
       "title": "Member Salon",
       "org": "Capital Factory",
       "cadence": "Recurring, members-only",
-      "meta": "Closed-door member mixer/discussion series. Ask your CF community manager.",
+      "meta": "Closed-door member mixer/discussion series. Ask your CF community manager. Re-checked Aug 31, 2026 refresh — still a recurring monthly members-only series (per capitalfactory.com listing), no public standalone date to surface.",
       "link": "https://capitalfactory.com/in-person"
     },
     {
       "title": "Prototown",
       "org": "Independent (Lockhart, TX)",
       "cadence": "Ad hoc",
-      "meta": "1,200-acre hard-tech manufacturing campus — occasional large gatherings (robots, aircraft, heavy equipment demos). Last known: March 2026. Growing national media attention through 2026 (Bloomberg feature, Real Deal coverage on its \"company town\" model) but no newly confirmed public gathering date found as of Aug 24, 2026 refresh.",
+      "meta": "1,200-acre hard-tech manufacturing campus — occasional large gatherings (robots, aircraft, heavy equipment demos). Last known: March 2026. Growing national media attention through 2026 (Bloomberg feature, Real Deal coverage on its \"company town\" model). As of Aug 31, 2026 refresh, new coverage (Chron, CRE Daily) reports a planned $23M nuclear-research facility coming to Lockhart as part of the Proto-Town campus, plus continued CRE/investment interest — but still no newly confirmed public gathering date.",
       "link": "https://prototown.com"
     },
     {
@@ -491,7 +491,7 @@
       "title": "Q Branch Accelerator events",
       "org": "Q-Branch",
       "cadence": "Ad hoc, incl. multi-day delegation weeks",
-      "meta": "Commercialization / gov't-defense acceleration, 6th Street venue. Hosted programming through SXSW 2026 (confirmed as an official SXSW 2026 venue); watch for SXSW 2027 delegation-week announcements. Over 75 events hosted since 2024.",
+      "meta": "Commercialization / gov't-defense acceleration, 6th Street venue. Hosted programming through SXSW 2026 (confirmed as an official SXSW 2026 venue, schedule.sxsw.com listing); LinkedIn confirms it welcomed official international delegations (incl. Australia, Canada, Germany, Japan, Singapore and others) during 2026. Watch for SXSW 2027 delegation-week announcements. Over 75 events hosted since 2024.",
       "link": "https://q-branch.dev"
     },
     {
@@ -519,7 +519,7 @@
       "title": "ARMA State of Manufacturing Expo & Conference",
       "org": "ARMA",
       "cadence": "Bi-annual per ARMA's own site (2026 date TBD, recent editions ~Sept 24)",
-      "meta": "Flagship expo — policy, robotics, workforce, supplier floor. AT&T Hotel & Conference Center. As of Aug 2026 refresh, ARMA's own committee list shows its Tradeshow Committee doesn't start until \"November 2026\", suggesting the next Expo edition may land in early/mid-2027 rather than late 2026 — watch arma-tx.org/events for the confirmed date. Re-checked Aug 24, 2026 — still no confirmed date posted.",
+      "meta": "Flagship expo — policy, robotics, workforce, supplier floor. AT&T Hotel & Conference Center. As of Aug 2026 refresh, ARMA's own committee list shows its Tradeshow Committee doesn't start until \"November 2026\", suggesting the next Expo edition may land in early/mid-2027 rather than late 2026 — watch arma-tx.org/events for the confirmed date. Re-checked Aug 24, 2026 — still no confirmed date posted. Re-checked again Aug 31, 2026 refresh — still no 2026 date found; most recent confirmed edition was Oct 1–2, 2025 at Kalahari Resorts and Conventions, Round Rock, TX, for reference. Note: ARMA also appears to be migrating to a new membership/events portal as of this refresh, which may explain the calendar gap.",
       "link": "https://arma-tx.org/events"
     },
     {
@@ -554,7 +554,7 @@
       "title": "Austin Robotics & AI meetup",
       "org": "meetup.com/austin-robotics-ai",
       "cadence": "Monthly, ~last Wednesday, 6-8pm at HICAM",
-      "meta": "Humanoids, industrial automation, manufacturing robotics talks. Aug 26, 2026 instance now confirmed and moved into Upcoming events; next date beyond that not yet posted as of Aug 24, 2026 refresh.",
+      "meta": "Humanoids, industrial automation, manufacturing robotics talks. Aug 26, 2026 instance now confirmed and moved into Upcoming events; next date beyond that still not posted as of Aug 31, 2026 refresh.",
       "link": "https://www.meetup.com/austin-robotics-ai"
     },
     {
@@ -575,7 +575,7 @@
       "title": "AI Tinkerers Austin",
       "org": "Capital Factory / STATION Austin",
       "cadence": "Weekly-ish",
-      "meta": "Builder demo nights — has covered 3D perception for robotics. Runs regular \"Demo Night\" sessions (e.g. Jan 2026 Demo Night, and a PostHog-themed demo night); check austin.aitinkerers.org for the current month's date.",
+      "meta": "Builder demo nights — has covered 3D perception for robotics. Runs regular \"Demo Night\"/\"Community AI Demos\" sessions (e.g. Jan 2026 Demo Night, a PostHog-themed demo night, and a listed \"Community AI Demos — September Edition\" found on austin.aitinkerers.org as of Aug 31, 2026 refresh, exact date not yet confirmed); check austin.aitinkerers.org for the current month's date.",
       "link": null
     },
     {
@@ -645,7 +645,7 @@
       "title": "Hack AI",
       "org": "Capital Factory / meetup.com/hack-ai",
       "cadence": "Monthly, 1st Thursday, 6:00 PM",
-      "meta": "Themed builder session each month (Voice AI, LLMs, Computer Vision, etc.) at STATION Austin. Confirmed recurring format still running as of Feb 2026 session (Jan 8 and Feb 5, 2026 instances both confirmed).",
+      "meta": "Themed builder session each month (Voice AI, LLMs, Computer Vision, etc.) at STATION Austin. Confirmed recurring format still running as of Feb 2026 session (Jan 8 and Feb 5, 2026 instances both confirmed); re-checked Aug 31, 2026 refresh — meetup.com/hack-ai listing and format unchanged, no specific Sept 2026 date surfaced yet.",
       "link": "https://www.meetup.com/hack-ai/"
     },
     {
