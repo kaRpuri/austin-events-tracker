@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Aug 31, 2026",
+  "lastUpdated": "Sep 14, 2026",
   "events": [
     {
       "id": "fiesta-2026-12",
@@ -12,7 +12,7 @@
       "location": "Station Austin, 701 Brazos St, Austin, TX",
       "cost": "Free / suggested $15",
       "link": "https://capitalfactory.com/event/fiesta",
-      "desc": "Flagship monthly founder mixer — 12 founders pitch, warm intros to investors and mentors. Recurring monthly, ~3rd Tuesday. Confirmed via Capital Factory listing (Dec 15, 2026, 5:30–9:30 PM, Station Austin). Re-verified Aug 24, 2026 refresh — recurring monthly format (also runs at Meetup.com/fiesta-atx and Luma) continues through year-end unchanged. Re-confirmed again Aug 31, 2026 refresh via capitalfactory.com/event/fiesta and luma.com/fiesta — same date/time/venue, no change."
+      "desc": "Flagship monthly founder mixer — 12 founders pitch, warm intros to investors and mentors. Recurring monthly, ~3rd Tuesday. Confirmed via Capital Factory listing (Dec 15, 2026, 5:30–9:30 PM, Station Austin). Re-verified Aug 24, 2026 refresh — recurring monthly format (also runs at Meetup.com/fiesta-atx and Luma) continues through year-end unchanged. Re-confirmed again Aug 31, 2026 refresh via capitalfactory.com/event/fiesta and luma.com/fiesta — same date/time/venue, no change. Re-confirmed once more during Sep 14, 2026 refresh via capitalfactory.com/event/fiesta, luma.com/fiesta and meetup.com/fiesta-atx — still Dec 15, 2026, 5:30 PM, Station Austin, no change."
     },
     {
       "id": "fed-supernova-2026",
@@ -52,7 +52,7 @@
       "location": "HICAM, East Austin",
       "cost": "Free–low cost",
       "link": "https://www.meetup.com/Austin-Robotics-AI/",
-      "desc": "Humanoids, industrial automation, manufacturing robotics talks. Confirmed via Meetup.com event listing (Wed, Aug 26, 2026, 6:00 PM) during Aug 24, 2026 refresh. Recurring monthly at HICAM; next date beyond this one still not posted as of Aug 31, 2026 refresh."
+      "desc": "Humanoids, industrial automation, manufacturing robotics talks. Confirmed via Meetup.com event listing (Wed, Aug 26, 2026, 6:00 PM) during Aug 24, 2026 refresh. Recurring monthly at HICAM; next date beyond this one still not posted as of Sep 14, 2026 refresh."
     },
     {
       "id": "austin-startup-meetup-2026-08",
@@ -66,6 +66,32 @@
       "cost": "Free–low cost",
       "link": "https://www.austinstartupmeetup.com/",
       "desc": "Founders, investors and industry experts share knowledge, challenges and lessons from their startup journey. Recurring monthly."
+    },
+    {
+      "id": "austin-startup-meetup-2026-09",
+      "title": "Austin Startup Meetup",
+      "org": "Austin Startup Meetup",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-09-10",
+      "time": "6:00 – 9:00 PM",
+      "location": "STATION Austin, 8th floor (Room: Captain America), 701 Brazos St, Austin, TX",
+      "cost": "Free–low cost",
+      "link": "https://www.meetup.com/austin-startup-meetup/",
+      "desc": "Founders, investors and industry experts share knowledge, challenges and lessons from their startup journey. Confirmed via Meetup.com listing (Thu, Sept 10, 2026, 6:00–9:00 PM, STATION Austin) during Sep 14, 2026 refresh. Recurring monthly."
+    },
+    {
+      "id": "austin-startup-meetup-2026-10",
+      "title": "Austin Startup Meetup",
+      "org": "Austin Startup Meetup",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-10-05",
+      "time": "6:00 – 9:00 PM",
+      "location": "STATION Austin, 701 Brazos St, Austin, TX",
+      "cost": "Free–low cost",
+      "link": "https://www.meetup.com/austin-startup-meetup/",
+      "desc": "Founders, investors and industry experts share knowledge, challenges and lessons from their startup journey. Confirmed via Meetup.com and STATION Austin listings (Mon, Oct 5, 2026, 6:00–9:00 PM) during Sep 14, 2026 refresh. Recurring monthly."
     },
     {
       "id": "ctan-speed-mentoring-2026-09",
@@ -92,6 +118,32 @@
       "cost": "Free to watch as a guest; apply to pitch",
       "link": "https://www.ctan.com/events-calendar",
       "desc": "Has a Hardware/Other sector bucket in the application."
+    },
+    {
+      "id": "ctan-founder-info-session-2026-10",
+      "title": "CTAN Founder Info Session — How to Maximize Your Opportunity to Close an Investment",
+      "org": "Central Texas Angel Network",
+      "category": "community",
+      "tag": "Investor",
+      "dateStart": "2026-10-13",
+      "time": "12:00 PM CT",
+      "location": "Virtual",
+      "cost": "Free",
+      "link": "https://www.ctan.com/events-calendar",
+      "desc": "Quarterly virtual founder info session on maximizing your opportunity to close an angel investment. Confirmed via ctan.com/events-calendar (Tuesday, Oct 13 at Noon CT) during Sep 14, 2026 refresh — moved from watchlist."
+    },
+    {
+      "id": "ctan-angel-speed-dating-2026-10",
+      "title": "CTAN Angel Speed Dating (Founder Angel Speed Dating #5)",
+      "org": "Central Texas Angel Network",
+      "category": "community",
+      "tag": "Investor",
+      "dateStart": "2026-10-16",
+      "time": "10:45 AM – 11:45 AM CT",
+      "location": "Capital Factory, Austin, TX",
+      "cost": "Free",
+      "link": "https://www.eventbrite.com/e/angel-speed-dating-w-central-texas-angel-network-tickets-1538211876129",
+      "desc": "Structured 1:1 speed-dating format between founders and CTAN angel investors. Confirmed via Eventbrite (Fri, Oct 16, 2026, 10:45 AM, Capital Factory) and ctan.com/events-calendar (11 am CT) during Sep 14, 2026 refresh — moved from watchlist."
     },
     {
       "id": "ctan-cycle5-vpitch-2026-10",
@@ -130,7 +182,7 @@
       "location": "Rotating venue (e.g. Embassy Suites Round Rock)",
       "cost": "$30–50 member/non-member",
       "link": "https://arma-tx.org/events",
-      "desc": "Monthly peer luncheon — recurring, best low-commitment entry point into Austin's manufacturer community. Re-confirmed Aug 18, 2026 date via arma-tx.org events listing during Aug 31, 2026 refresh (\"ARMA August Luncheon\"); a September edition is now referenced on ARMA's homepage but no specific date has posted yet."
+      "desc": "Monthly peer luncheon — recurring, best low-commitment entry point into Austin's manufacturer community. Re-confirmed Aug 18, 2026 date via arma-tx.org events listing during Aug 31, 2026 refresh (\"ARMA August Luncheon\"); a September edition is referenced on ARMA's homepage but no specific date had posted as of that refresh. Re-checked Sep 14, 2026 refresh — still no confirmed September luncheon date found on arma-tx.org/events; a September 29 luncheon result that surfaced in search is a stale/archived 2016 event page, not a 2026 date — do not rely on it."
     },
     {
       "id": "arma-workforce-2026-07",
@@ -142,7 +194,7 @@
       "location": "Skillpoint Alliance",
       "cost": "Free, open to members",
       "link": "https://arma-tx.org/events",
-      "desc": "Monthly workforce-committee meeting. A September edition is now referenced on ARMA's homepage (\"September Workforce Committee Meeting\") as of Aug 31, 2026 refresh, but no specific date/venue has posted yet — watch arma-tx.org/events."
+      "desc": "Monthly workforce-committee meeting. A September edition is referenced on ARMA's homepage (\"September Workforce Committee Meeting\") as of Aug 31, 2026 refresh, but no specific date/venue had posted yet. Re-checked Sep 14, 2026 refresh — still no specific date/venue found; watch arma-tx.org/events."
     },
     {
       "id": "austin-tech-week-2026",
@@ -449,6 +501,32 @@
       "cost": "Register via Luma",
       "link": "https://founderpath.com/ai-growth-summit/events/sf-2026",
       "desc": "Flagship national edition of the AI Growth Summit tour (the Austin, NYC, Toronto and other city stops all feed into this main SF event) — foundation model labs, AI tooling companies, and founders/operators/investors in one room."
+    },
+    {
+      "id": "momentum-ai-austin-2026-09",
+      "title": "Momentum AI Austin 2026",
+      "org": "Reuters Events",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-09-24",
+      "dateEnd": "2026-09-25",
+      "location": "Austin, TX",
+      "cost": "Invitation-only",
+      "link": "https://events.reutersevents.com/momentum/agenda",
+      "desc": "Invitation-only enterprise-AI conference convening Fortune 500 executives, technology innovators and policymakers on AI strategy and deployment; will welcome 500+ senior executives and 60+ speakers. Newly identified via Reuters Events / Yahoo Finance during Sep 14, 2026 refresh."
+    },
+    {
+      "id": "ipn-momentum-2026-11",
+      "title": "IPN Momentum",
+      "org": "Ismaili Professionals Network (IPN)",
+      "category": "community",
+      "tag": "Community",
+      "dateStart": "2026-11-13",
+      "dateEnd": "2026-11-15",
+      "location": "Capital Factory, Austin, TX",
+      "cost": "Application required",
+      "link": "https://momentum.ipnonline.net/",
+      "desc": "Curated 3-day weekend for early-stage founders — mentors and peers to help move ideas forward, ~150 founders and 50 mentors (1:3 mentor-to-founder ratio) at recent editions. Newly confirmed via momentum.ipnonline.net and LinkedIn (IPN) during Sep 14, 2026 refresh."
     }
   ],
   "watchlist": [
@@ -456,14 +534,14 @@
       "title": "Member Salon",
       "org": "Capital Factory",
       "cadence": "Recurring, members-only",
-      "meta": "Closed-door member mixer/discussion series. Ask your CF community manager. Re-checked Aug 31, 2026 refresh — still a recurring monthly members-only series (per capitalfactory.com listing), no public standalone date to surface.",
+      "meta": "Closed-door member mixer/discussion series. Ask your CF community manager. Re-checked Aug 31, 2026 refresh — still a recurring monthly members-only series (per capitalfactory.com listing), no public standalone date to surface. Re-checked again Sep 14, 2026 refresh — no material change.",
       "link": "https://capitalfactory.com/in-person"
     },
     {
       "title": "Prototown",
       "org": "Independent (Lockhart, TX)",
       "cadence": "Ad hoc",
-      "meta": "1,200-acre hard-tech manufacturing campus — occasional large gatherings (robots, aircraft, heavy equipment demos). Last known: March 2026. Growing national media attention through 2026 (Bloomberg feature, Real Deal coverage on its \"company town\" model). As of Aug 31, 2026 refresh, new coverage (Chron, CRE Daily) reports a planned $23M nuclear-research facility coming to Lockhart as part of the Proto-Town campus, plus continued CRE/investment interest — but still no newly confirmed public gathering date.",
+      "meta": "1,200-acre hard-tech manufacturing campus — occasional large gatherings (robots, aircraft, heavy equipment demos). Last known: March 2026. Growing national media attention through 2026 (Bloomberg feature, Real Deal coverage on its \"company town\" model). As of Aug 31, 2026 refresh, new coverage (Chron, CRE Daily) reports a planned $23M nuclear-research facility coming to Lockhart as part of the Proto-Town campus, plus continued CRE/investment interest. Bloomberg's 2026 feature confirms Oklo Inc. is constructing a nuclear test reactor on-site to generate isotopes for research, energy and medical uses — but still no newly confirmed public gathering date as of Sep 14, 2026 refresh.",
       "link": "https://prototown.com"
     },
     {
@@ -484,21 +562,21 @@
       "title": "Antler + Capital Factory sessions",
       "org": "Antler",
       "cadence": "Ad hoc",
-      "meta": "Co-hosted sessions, incl. some Cup of Capital editions (e.g. an Austin Cup of Capital co-hosted with Antler ran Jun 5, 2026).",
+      "meta": "Co-hosted sessions, incl. some Cup of Capital editions (e.g. an Austin Cup of Capital co-hosted with Antler ran Jun 5, 2026). Checked antler.co/cohort-start-dates during Sep 14, 2026 refresh — Austin is listed among Antler's rolling-intake US locations, but no single confirmed Austin event/demo-day date could be pinned down yet.",
       "link": "https://antler.co"
     },
     {
       "title": "Q Branch Accelerator events",
       "org": "Q-Branch",
       "cadence": "Ad hoc, incl. multi-day delegation weeks",
-      "meta": "Commercialization / gov't-defense acceleration, 6th Street venue. Hosted programming through SXSW 2026 (confirmed as an official SXSW 2026 venue, schedule.sxsw.com listing); LinkedIn confirms it welcomed official international delegations (incl. Australia, Canada, Germany, Japan, Singapore and others) during 2026. Watch for SXSW 2027 delegation-week announcements. Over 75 events hosted since 2024.",
+      "meta": "Commercialization / gov't-defense acceleration, 6th Street venue. Hosted programming through SXSW 2026 (confirmed as an official SXSW 2026 venue, schedule.sxsw.com listing); LinkedIn confirms it welcomed official international delegations (incl. Australia, Canada, Germany, Japan, Singapore and others) during 2026. SXSW 2027 dates are now confirmed (SXSW EDU & SXSW March 13–21, 2027; main SXSW Conference badges March 15–21, 2027, Austin) per sxsw.com's official announcement — watch for Q-Branch's SXSW 2027 delegation-week announcements closer to that window. Over 75 events hosted since 2024.",
       "link": "https://q-branch.dev"
     },
     {
       "title": "Cup of Capital (Austin)",
       "org": "Capital Factory",
       "cadence": "1st & 3rd Friday mornings",
-      "meta": "Public coffee-networking — low-key way to meet founders/investors. Next confirmed instance found: Oct 2, 2026, 9:00 AM.",
+      "meta": "Public coffee-networking — low-key way to meet founders/investors. Next confirmed instance found: Oct 2, 2026, 9:00 AM. Re-checked Sep 14, 2026 refresh — no later instance date posted yet beyond Oct 2.",
       "link": "https://capitalfactory.com/cup-of-capital"
     },
     {
@@ -519,7 +597,7 @@
       "title": "ARMA State of Manufacturing Expo & Conference",
       "org": "ARMA",
       "cadence": "Bi-annual per ARMA's own site (2026 date TBD, recent editions ~Sept 24)",
-      "meta": "Flagship expo — policy, robotics, workforce, supplier floor. AT&T Hotel & Conference Center. As of Aug 2026 refresh, ARMA's own committee list shows its Tradeshow Committee doesn't start until \"November 2026\", suggesting the next Expo edition may land in early/mid-2027 rather than late 2026 — watch arma-tx.org/events for the confirmed date. Re-checked Aug 24, 2026 — still no confirmed date posted. Re-checked again Aug 31, 2026 refresh — still no 2026 date found; most recent confirmed edition was Oct 1–2, 2025 at Kalahari Resorts and Conventions, Round Rock, TX, for reference. Note: ARMA also appears to be migrating to a new membership/events portal as of this refresh, which may explain the calendar gap.",
+      "meta": "Flagship expo — policy, robotics, workforce, supplier floor. AT&T Hotel & Conference Center. As of Aug 2026 refresh, ARMA's own committee list shows its Tradeshow Committee doesn't start until \"November 2026\", suggesting the next Expo edition may land in early/mid-2027 rather than late 2026 — watch arma-tx.org/events for the confirmed date. Re-checked Aug 24, 2026 — still no confirmed date posted. Re-checked again Aug 31, 2026 refresh — still no 2026 date found; most recent confirmed edition was Oct 1–2, 2025 at Kalahari Resorts and Conventions, Round Rock, TX, for reference. Note: ARMA also appears to be migrating to a new membership/events portal as of this refresh, which may explain the calendar gap. Re-checked once more Sep 14, 2026 refresh — arma-tx.org/arma-members still shows \"Tradeshow Committee (November 2026 Start)\", consistent with a 2027 Expo edition; still no 2026 date found.",
       "link": "https://arma-tx.org/events"
     },
     {
@@ -533,14 +611,14 @@
       "title": "Central Texas Angel Network — Founder Info Session",
       "org": "CTAN",
       "cadence": "~Quarterly, virtual",
-      "meta": "\"How to Maximize Your Opportunity to Close an Investment.\"",
+      "meta": "\"How to Maximize Your Opportunity to Close an Investment.\" Oct 13, 2026 edition now confirmed and moved to Upcoming events.",
       "link": "https://centraltexasangelnetwork.com"
     },
     {
       "title": "CTAN Angel Speed Dating",
       "org": "CTAN",
-      "cadence": "~Quarterly, virtual",
-      "meta": "Free.",
+      "cadence": "~Quarterly, virtual/in-person",
+      "meta": "Free. Oct 16, 2026 edition (Founder Angel Speed Dating #5) now confirmed and moved to Upcoming events.",
       "link": "https://centraltexasangelnetwork.com"
     },
     {
@@ -554,28 +632,28 @@
       "title": "Austin Robotics & AI meetup",
       "org": "meetup.com/austin-robotics-ai",
       "cadence": "Monthly, ~last Wednesday, 6-8pm at HICAM",
-      "meta": "Humanoids, industrial automation, manufacturing robotics talks. Aug 26, 2026 instance now confirmed and moved into Upcoming events; next date beyond that still not posted as of Aug 31, 2026 refresh.",
+      "meta": "Humanoids, industrial automation, manufacturing robotics talks. Aug 26, 2026 instance confirmed and moved into Upcoming events; next date beyond that still not posted as of Sep 14, 2026 refresh.",
       "link": "https://www.meetup.com/austin-robotics-ai"
     },
     {
       "title": "Austin Hardware Startup Meetup",
       "org": "meetup.com/austin-hardware-startup",
       "cadence": "Restarting through 2026",
-      "meta": "Long-running hardware/physical-product founder group. Group's own listing (as of Aug 2026) says it has been dormant but is working to bring events back in 2026 — no confirmed next date yet.",
+      "meta": "Long-running hardware/physical-product founder group. Group's own listing (re-checked Sep 14, 2026 refresh) still says it has been dormant but is working to bring events back in 2026 — no confirmed next date yet.",
       "link": "https://www.meetup.com/austin-hardware-startup"
     },
     {
       "title": "Austin Hardware",
       "org": "meetup.com/austin-hardware-meetup",
       "cadence": "Ongoing",
-      "meta": "Sister group, same physical-product startup focus. Also has a companion Luma calendar (luma.com/atx-hardware-meetup).",
+      "meta": "Sister group, same physical-product startup focus. Also has a companion Luma calendar (luma.com/atx-hardware-meetup), which lists past sessions like a \"Hardware Happy Hour\" sponsored by Knectiv and Xebec — no new confirmed upcoming date found as of Sep 14, 2026 refresh.",
       "link": "https://www.meetup.com/austin-hardware-meetup"
     },
     {
       "title": "AI Tinkerers Austin",
       "org": "Capital Factory / STATION Austin",
       "cadence": "Weekly-ish",
-      "meta": "Builder demo nights — has covered 3D perception for robotics. Runs regular \"Demo Night\"/\"Community AI Demos\" sessions (e.g. Jan 2026 Demo Night, a PostHog-themed demo night, and a listed \"Community AI Demos — September Edition\" found on austin.aitinkerers.org as of Aug 31, 2026 refresh, exact date not yet confirmed); check austin.aitinkerers.org for the current month's date.",
+      "meta": "Builder demo nights — has covered 3D perception for robotics. Runs regular \"Demo Night\"/\"Community AI Demos\" sessions (e.g. Jan 2026 Demo Night, a PostHog-themed demo night, and a listed \"Community AI Demos — September Edition\" found on austin.aitinkerers.org). Re-checked Sep 14, 2026 refresh — the September Edition page is still live but its metadata references an older (2024) posting date, so the exact 2026 September date could not be confirmed; check austin.aitinkerers.org for the current month's date.",
       "link": null
     },
     {
@@ -596,7 +674,7 @@
       "title": "Austin Startup Meetup",
       "org": "Austin Startup Meetup",
       "cadence": "Monthly",
-      "meta": "Founder/investor meetup + widely-read ecosystem newsletter.",
+      "meta": "Founder/investor meetup + widely-read ecosystem newsletter. Aug, Sept and Oct 2026 instances now confirmed and moved into Upcoming events.",
       "link": null
     },
     {
@@ -645,7 +723,7 @@
       "title": "Hack AI",
       "org": "Capital Factory / meetup.com/hack-ai",
       "cadence": "Monthly, 1st Thursday, 6:00 PM",
-      "meta": "Themed builder session each month (Voice AI, LLMs, Computer Vision, etc.) at STATION Austin. Confirmed recurring format still running as of Feb 2026 session (Jan 8 and Feb 5, 2026 instances both confirmed); re-checked Aug 31, 2026 refresh — meetup.com/hack-ai listing and format unchanged, no specific Sept 2026 date surfaced yet.",
+      "meta": "Themed builder session each month (Voice AI, LLMs, Computer Vision, etc.) at STATION Austin. Confirmed recurring format still running as of Feb 2026 session (Jan 8 and Feb 5, 2026 instances both confirmed); re-checked Aug 31, 2026 refresh — meetup.com/hack-ai listing and format unchanged, no specific Sept 2026 date surfaced yet. Re-checked again Sep 14, 2026 refresh — still no specific Sept/Oct 2026 date surfaced; format unchanged.",
       "link": "https://www.meetup.com/hack-ai/"
     },
     {
@@ -654,6 +732,13 @@
       "cadence": "Recurring, ad hoc (seen listed for November edition)",
       "meta": "Newly identified Austin hardware-founder happy hour/networking series found via Eventbrite search; no confirmed recurring schedule yet — watch Eventbrite for next date.",
       "link": null
+    },
+    {
+      "title": "Startup Mania 2026",
+      "org": "Startup Grind",
+      "cadence": "Annual, exact 2026 date TBD",
+      "meta": "Newly identified Austin startup event — 800+ attendees, March Madness-style pitch competition among 64 top Seed and Series A founders battling for a championship belt and cash prize. No confirmed 2026 date found as of Sep 14, 2026 refresh — watch about.startupgrind.com/startup-mania-2026.",
+      "link": "https://about.startupgrind.com/startup-mania-2026/"
     }
   ]
 }
